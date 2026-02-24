@@ -1,0 +1,6 @@
+boto3
+pdfplumber
+openai
+langchain
+transformers
+torch

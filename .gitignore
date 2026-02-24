@@ -1,0 +1,14 @@
+# AWS Credentials
+.aws/
+.env
+
+# Data
+data/
+*.pdf
+
+# Colab
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
