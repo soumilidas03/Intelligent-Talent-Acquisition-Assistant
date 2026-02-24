@@ -1,7 +1,7 @@
 # AWS Credentials
 .aws/
 .env
-
+venv/
 # Data
 data/
 *.pdf
@@ -12,3 +12,5 @@ data/
 # Python
 __pycache__/
 *.pyc
+
+

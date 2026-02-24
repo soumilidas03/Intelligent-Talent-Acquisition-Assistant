@@ -1,6 +1,4 @@
 boto3
-pdfplumber
-openai
-langchain
-transformers
-torch
+groq
+pdfminer.six
+python-dotenv

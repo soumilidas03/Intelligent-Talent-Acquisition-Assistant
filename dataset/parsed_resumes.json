@@ -1,0 +1,547 @@
+[
+    {
+        "name": "Charles McTurland",
+        "email": "cmcturland@email.com",
+        "skills": [
+            "Python (Django)",
+            "Javascript (NodeJS ReactJS, jQuery)",
+            "SQL (MySQL, PostgreSQL, NoSQL)",
+            "HTML5/CSS",
+            "AWS",
+            "Unix",
+            "Git"
+        ],
+        "education": "B.S. Computer Science, University of Pittsburgh (September 2008 - April 2012)",
+        "experience": [
+            {
+                "title": "Software Engineer",
+                "company": "Embark",
+                "location": "New York, NY",
+                "dates": "January 2015 - current",
+                "description": [
+                    "Worked with product managers to re-architect a multi-page web app into a single page web-app, boosting yearly revenue by $1.4M",
+                    "Constructed the logic for a streamlined ad-serving platform that scaled to our 35M users, which improved the page speed by 15% after implementation",
+                    "Tested software for bugs and operating speed, xing bugs and documenting processes to increase efciency by 18%",
+                    "Iterated platform for college admissions, collaborating with a group of 4 engineers to create features across the software"
+                ]
+            },
+            {
+                "title": "Software Engineer",
+                "company": "MarketSmart",
+                "location": "Washington, DC",
+                "dates": "April 2012 - January 2015",
+                "description": [
+                    "Built RESTful APIs that served data to the JavaScript front-end based on dynamically chosen user inputs that handled over 500,000 concurrent users",
+                    "Built internal tool using NodeJS and Pupeteer.js to automate QA and monitoring of donor-facing web app, which improved CTR by 3%",
+                    "Reviewed code and conducted testing for 3 additional features on donor-facing web app that increased contributions by 12%"
+                ]
+            },
+            {
+                "title": "Software Engineer Intern",
+                "company": "Marketing Science Company",
+                "location": "Pittsburgh, PA",
+                "dates": "April 2011 - March 2012",
+                "description": [
+                    "Partnered with a developer to implement RESTful APIs in Django, enabling analytics team to increase reporting speed by 24%",
+                    "Using Selenium I built out a unit testing infrastructure for a client application that reduced the number of bugs reported by the client by 11% month over month"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Poker Simulation",
+                "description": "Built a full-stack web app to allow users to simulate and visualize outcomes of poker hands against opponents of different play styles using open source cards.js on the front-end. Utilized sci-kit learn in Python to simulate possible outcomes under different scenarios that the user chose"
+            }
+        ]
+    },
+    {
+        "name": "I LY I A KARASL AVOV",
+        "email": "ilyia.karaslavov@email.com",
+        "skills": [
+            "Java",
+            "Spring",
+            "Hibernate",
+            "SQL",
+            "AWS",
+            "Azure",
+            "ITF+",
+            "A+",
+            "Project Management",
+            "Interpersonal Communication"
+        ],
+        "education": "Bachelor of Science Cybersecurity Grand Canyon University 2003 - 2005",
+        "experience": [
+            {
+                "title": "Senior Information Security Engineer",
+                "company": "Wells Fargo",
+                "dates": "2015 - current",
+                "location": "Chandler, AZ",
+                "description": "Designed, built, congured, and deployed 50+ rewall, intrusion detection, and infrastructure automation technologies Identied and investigated 100% of threats and vulnerabilities, reducing the risk of successful cyber attacks by 83% Supported perimeter initiatives by automating and integrating the provisioning of accounts in the AWS cloud Provided consultation on 181 technologies to address security gaps"
+            },
+            {
+                "title": "Network Security Engineer",
+                "company": "Infosys",
+                "dates": "2010 - 2015",
+                "location": "Phoenix, AZ",
+                "description": "Designed and maintained 100% of cybersecurity soft & hardware Launched initiative to converge IT and OT networks, saving $48K a year in labor costs and security initiatives Maintained Process Control Network and 3 Pipeline SCADA Networks to ensure effectiveness, reliable operation, and security"
+            },
+            {
+                "title": "Software Engineer",
+                "company": "Voice Media Group",
+                "dates": "2007 - 2010",
+                "location": "Phoenix, AZ",
+                "description": "Responsible for 100% of engineering, testing, implementation, and maintenance of both code and codebases Conducted statistical analysis and troubleshooting for site lead and 4 key management personnel Participated in all phases of software development, including initial design, prototype development, and production Overhauled outdated practices to develop algorithms, ensure compliance, and conduct initial design stages for applications"
+            },
+            {
+                "title": "Software/Java Engineer",
+                "company": "SimuLogix",
+                "dates": "2005 - 2007",
+                "location": "Phoenix, AZ",
+                "description": "Led production processes for 14 new products Partnered with software developers and quality assurance engineers to build and test 3 types of new products Designed and developed 6 scalable enterprise web applications Collaborated with 4 engineers to update 20+ tools and processes"
+            }
+        ],
+        "projects": []
+    },
+    {
+        "name": "CYNTHIADWAYNE",
+        "email": "cynthia@beamjobs.com",
+        "skills": [
+            "Python (Django)",
+            "SQL (PostgreSQL, MySQL)",
+            "Cloud (GCP, AWS)",
+            "JavaScript (ES6, React, Redux, Node.js)",
+            "Typescript",
+            "HTML/ CSS",
+            "CI/CD"
+        ],
+        "education": "Bachelor of Science Computer Science University of Delaware August 2008 - May 2012 Newark, DE",
+        "experience": [
+            {
+                "title": "Software Developer",
+                "company": "QuickBooks",
+                "dates": "January 2017 - current / New York, NY",
+                "description": [
+                    "Worked on the payments team to save time and improve cash ow for over 50,000 through the development of modern, responsive customer experiences cloud costs by $260,000 per year",
+                    "Led the migration from AWS to GCP for the team to reduce",
+                    "Worked closely with the product team to re-congure the processing of invoices, saving customers over 125,000 manual hours of work per month",
+                    "Mentored 3 junior front-end developers on the team on React, and documented best practices within the organization"
+                ]
+            },
+            {
+                "title": "Front-End Developer",
+                "company": "AMR",
+                "dates": "January 2014 - December 2016 / New York, NY",
+                "description": [
+                    "components that saved 125+ hours of development per month",
+                    "Contributed to the in-house UI library to create reusable",
+                    "Created a web app MVP for a store delivery management platform with 200+ business customers to create, manage, and monitor deliveries using React and Redux",
+                    "Added features to meditation app with 5,000+ monthly users, enabling audio and video uploads using React and Redux",
+                    "Improved customer conversion rate by 17% through A/B testing of dierent components and combinations, representing $500,000+ in incremental annual revenue"
+                ]
+            },
+            {
+                "title": "Help Desk Analyst",
+                "company": "Kelly",
+                "dates": "June 2012 - January 2014 / New York, NY",
+                "description": [
+                    "Diagnosed technical issues for 30+ clients per day by phone, email, and chat, solving issues within 15 minutes on average",
+                    "Successfully reached solutions for 92% of computer errors, and escalated more complex tickets to higher tiers to assist clients as quickly as possible",
+                    "them with setting up and customizing their accounts",
+                    "Created user accounts for 50+ clients per week, and assisted",
+                    "Created and updated documentation as needed concerning network, software, and hardware problems"
+                ]
+            }
+        ],
+        "projects": []
+    },
+    {
+        "name": "Giulia Gonzalez",
+        "email": "ggonzalez@email.com",
+        "skills": [
+            "HTML/CSS",
+            "SQL (PostgreSQL, Oracle)",
+            "JavaScript (Angular)",
+            "Python (Django)",
+            "REST APIs (GraphQL)",
+            "AWS (Redshift, S3)",
+            "Git"
+        ],
+        "education": [
+            {
+                "degree": "M.S. Computer Science",
+                "university": "University of Chicago",
+                "duration": "2014 - 2016",
+                "location": "Chicago, IL"
+            },
+            {
+                "degree": "B.S. Computer Science",
+                "university": "University of Pittsburgh",
+                "duration": "2010 - 2014",
+                "location": "Pittsburgh, PA"
+            }
+        ],
+        "experience": [
+            {
+                "position": "Python Developer",
+                "company": "DoorDash",
+                "duration": "September 2017 - current",
+                "location": "Detroit, MI",
+                "description": [
+                    "Worked on building new Angular components for the customer-facing web app, which improved the time on page for the average user by 2 minutes",
+                    "Collaborated with an agile team of 6, and helped prioritize and scope feature requests to ensure that the biggest impact features were worked on rst",
+                    "Built extensive test coverage for all new features, which reduced the number of customer complaints by 23%",
+                    "Acquired and ingested data to build and maintain data pipelines that led to discovering an opportunity for a new site feature, boosting revenue by 6%",
+                    "Communicated with internal teams and stakeholders, working to determine solutions for the user experience"
+                ]
+            },
+            {
+                "position": "Python Developer Intern",
+                "company": "Knewton",
+                "duration": "April 2016 - April 2017",
+                "location": "Chicago, IL",
+                "description": [
+                    "Worked alongside another developer to implement RESTful APIs in Django that enabled internal analytics team to increase reporting speed by 24%",
+                    "Using Selenium, built out a unit testing infrastructure for a client web application that reduced the number of bugs reported by the client by 11% month over month",
+                    "Provided project updates to leadership team of 3, and offered recommendations for design",
+                    "Diagnosed issues causing slow speeds in applications, and documented the process to making the database query system more robust",
+                    "Participated in writing scalable code with a team of 4 interns and 1 developer for applications for a math course"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "name": "Cryptocurrency Price Tracker Creator",
+                "description": [
+                    "Incorporated API calls to several applications, and stored data efficiently in PostgreSQL backend",
+                    "Utilized D3.js to allow users to dynamically visualize price movements over time periods of their choosing"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SALVADOR SANZ",
+        "email": "salvador.sanz@email.com",
+        "skills": [
+            "Python",
+            "Perl",
+            "RISC CPU",
+            "Operating System",
+            "Hardware",
+            "RTOS",
+            "JTAG/SWD",
+            "C/C++",
+            "QEMU"
+        ],
+        "education": "Bachelor of Science Computer Science, Carnegie Mellon University (2007 - 2011)",
+        "experience": [
+            {
+                "position": "Senior Embedded Software Engineer",
+                "company": "Dice",
+                "dates": "2019 - current",
+                "location": "Dover, DE",
+                "description": "Contributed to the design of software system architecture to establish a stable foundation for 25+ applications, Managed 3 long-term development programs and 6 short-cycle custom design tasks, Owned 100% of technical leadership responsibilities for product feature research and development, Spearheaded all aspects of product development from system design to testing"
+            },
+            {
+                "position": "Software Engineer III, Embedded Systems",
+                "company": "Google",
+                "dates": "2015 - 2019",
+                "location": "Dover, DE",
+                "description": "Architected, implemented, and maintained 50+ complex rmware/software designs, Wrote clean, robust, testable, reusable, and sustainable code tailored for embedded systems, Worked with 4 multi-functional teams to determine software architecture and specications, Developed and maintained 12+ engineering tools used to debug, analyze, and test embedded products"
+            },
+            {
+                "position": "Research & Development Embedded Software Engineer",
+                "company": "Superpedestrian",
+                "dates": "2011 - 2015",
+                "location": "Dover, DE",
+                "description": "Collaborated with 3 multidisciplinary teams to build verication plans, frameworks, tools, and tests, Architected and developed 10+ tools and infrastructures to support efcient building, debugging, and deployment, Reviewed and updated 300+ software requirements and designs for veriability, Coordinated 100% of software testing resources (internal & external) and provided schedule estimates"
+            }
+        ],
+        "projects": []
+    },
+    {
+        "name": "YVONNE GREEN",
+        "email": "y.green@email.com",
+        "skills": [
+            "Java",
+            "Git",
+            "Visual Studio Code",
+            "MySQL",
+            "AWS",
+            "Docker",
+            "Jenkins",
+            "React",
+            "JUnit",
+            "Jira"
+        ],
+        "education": "Bachelor of Science Computer Science and Engineering, Massachusetts Institute of Technology (2013 - 2017)",
+        "experience": [
+            {
+                "position": "Java Software Engineer",
+                "company": "DraftKings",
+                "duration": "2022 - current",
+                "location": "Boston, MA",
+                "achievements": [
+                    "Optimized existing Java-based landing pages, lowering load time by 46 ms while supporting 38K+ real-time users simultaneously.",
+                    "Executed JUnit tests for new website functionalities, achieving an 83% pass rate on the rst deployment.",
+                    "Enhanced the main servers security using AWS security tools, resulting in a 12% decrease in potential security breaches.",
+                    "Developed 2 REST APIs, successfully integrating with front-end systems and enabling seamless data flow across the company's app and website."
+                ]
+            },
+            {
+                "position": "Full-Stack Developer",
+                "company": "Akamai Technologies",
+                "duration": "2019 - 2022",
+                "location": "Cambridge, MA",
+                "achievements": [
+                    "Worked with 4 colleagues to optimize cloud-based applications for 8 clients with the help of Docker, improving their systems response rate by 27%.",
+                    "Automated build and test sequences on Jenkins, reducing time spent on weekly manual tasks by 5.6 hours.",
+                    "Renewed code quality across all projects by implementing and enforcing 2 style guides in Visual Studio Code.",
+                    "Created an error logging and alerting system using React, slashing downtime instances by 17% with quick critical failure identification."
+                ]
+            },
+            {
+                "position": "Junior Software Developer",
+                "company": "HubSpot",
+                "duration": "2017 - 2019",
+                "location": "Cambridge, MA",
+                "achievements": [
+                    "Assisted senior developers to maintain 6 MySQL databases, optimizing query performance by up to 22% which boosted the responsiveness of client-facing applications.",
+                    "Contributed to fixing 11 bugs every month in HubSpot's SaaS platform, supporting high system stability.",
+                    "Managed 75+ weekly tickets in Jira, achieving an average resolution time of less than 19 hours, meeting all the team's service level agreement (SLA) conditions.",
+                    "Regularly helped in code merges and deployment on Git, securing a deployment success rate of 92% throughout tenure."
+                ]
+            }
+        ],
+        "projects": []
+    },
+    {
+        "name": "CAIUSKESSLER",
+        "email": "ckessler@email.com",
+        "skills": [
+            "Visual Studio",
+            "Bitbucket",
+            "Oracle",
+            "Django",
+            "Windows",
+            "Java"
+        ],
+        "education": "B.S. Computer Science, University of Washington, September 2020 - current",
+        "experience": [
+            {
+                "title": "Data Entry Specialist",
+                "company": "Expedia Group",
+                "dates": "May 2021 - current",
+                "description": "Processed and entered 1,200+ travel records per week into Oracle databases. Utilized Java-based tools to import and export data, reducing data transfer time by 34%. Developed and deployed a Django-based web interface, increasing data accessibility for remote team by 22%. Generated data-driven insights, supporting key business decisions and driving a 6% increase in revenue. Gathered monthly reports on data entry metrics, helping strategic planning and resource allocation."
+            }
+        ],
+        "projects": [
+            {
+                "title": "Tech Pursuit Creator",
+                "dates": "2020 - 2021",
+                "description": "Designed a robust database architecture utilizing Oracle, enhancing game performance by 38%. Streamlined game development process by integrating Visual Studio, reducing overall project time by 11%. Implemented version control and collaboration using Bitbucket, leading to a 21% decrease in code conflicts. Enhanced game character AI using Java, increasing positive user reviews by 29%. Conducted extensive playtesting and user feedback analysis every month, eliminating game bugs."
+            }
+        ]
+    },
+    {
+        "name": "KIAN MARSHALL",
+        "email": "kianmarsh@email.com",
+        "skills": [
+            "JavaScript",
+            "Google Cloud SDK",
+            "Google Cloud Storage",
+            "Google Cloud Platform",
+            "Google Cloud Run",
+            "Google Cloud Natural Language API",
+            "React",
+            "Slack",
+            "Google Cloud Armor",
+            "Prometheus"
+        ],
+        "education": [
+            {
+                "degree": "M.S.",
+                "field": "Computer Science & Engineering",
+                "institution": "University of Washington",
+                "duration": "2014 - 2016",
+                "location": "Seattle, WA"
+            },
+            {
+                "degree": "B.S.",
+                "field": "Computer Science",
+                "institution": "Massachusetts Institute of Technology (MIT)",
+                "duration": "2010 - 2014",
+                "location": "Cambridge, MA"
+            }
+        ],
+        "experience": [
+            {
+                "position": "Software Engineer",
+                "company": "Microsoft",
+                "duration": "August 2018 - current",
+                "location": "Redmond, WA",
+                "achievements": [
+                    "Developed and optimized a Microsoft Oce Suite feature with JavaScript to increase user efficiency by 15%",
+                    "Implemented a microservice architecture for a cloud-based product, increasing system reliability and reducing deployment time by 16%",
+                    "Spearheaded the redesigning of a key Windows OS component to see improved boot time by 29%",
+                    "Led the migration of a critical application from on-premise to Azure cloud infrastructure, reducing operational costs by 32%",
+                    "Implemented a CI/CD pipeline for a key product, reducing release cycle times by 26%"
+                ]
+            },
+            {
+                "position": "Junior Developer",
+                "company": "Amazon",
+                "duration": "May 2015 - June 2018",
+                "location": "Seattle, WA",
+                "achievements": [
+                    "Built a custom integration between Amazon's internal tools and Slack via JavaScript, enhancing team productivity by 15%",
+                    "Improved security of a web application by integrating Google Cloud Armor, reducing the risk of DDoS attacks by 63%",
+                    "Reduced data retrieval times with Google Cloud Storage to store and manage large data sets for internal analytics project",
+                    "Optimized the performance of a web application using Google Cloud Run, which boosted concurrent users by 27%"
+                ]
+            },
+            {
+                "position": "Intern",
+                "company": "Amazon",
+                "duration": "May 2014 - May 2015",
+                "location": "Seattle, WA",
+                "achievements": [
+                    "Conducted market research and competitive analysis for a product launch, offering insights that boosted sales by 19%",
+                    "Participated in the QA testing process for a new application, identifying and reporting 4 critical bugs",
+                    "Oversaw user testing for a new feature, gathering feedback that contributed to a 26% improvement in usability",
+                    "Shadowed 3 senior team members to gain hands-on experience in project management and software development"
+                ]
+            }
+        ],
+        "projects": []
+    },
+    {
+        "name": "Zara Greene",
+        "email": "zaragreen@email.com",
+        "skills": [
+            "Eclipse",
+            "Git",
+            "Docker",
+            "Amazon Web Services (AWS)",
+            "Jenkins",
+            "React.js",
+            "MySQL",
+            "Java"
+        ],
+        "education": [
+            {
+                "degree": "M.S. Computer Science",
+                "concentration": "Software Theory or Software Systems",
+                "university": "Stanford University",
+                "location": "Stanford, CA",
+                "dates": "2010 - 2012"
+            },
+            {
+                "degree": "B.S. Computer Science",
+                "university": "Carnegie Mellon University",
+                "location": "Pittsburgh, PA",
+                "dates": "2006 - 2010"
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Engineering Manager",
+                "company": "Google LLC",
+                "location": "Mountain View, CA",
+                "dates": "May 2019 - April 2023",
+                "achievements": [
+                    "Boosted application performance by 23%",
+                    "Enhanced CI/CD pipelines by integrating Jenkins, accelerating release cycles by 21%",
+                    "Optimized data storage and retrieval with MySQL, contributing to a 29% increase in database performance",
+                    "Mentored 5 junior engineers on best practices, increasing their productivity and improving code quality",
+                    "Improved application architecture using AWS Cloud Services, reducing server response times by 28%"
+                ]
+            },
+            {
+                "title": "Systems Analyst",
+                "company": "IBM",
+                "location": "Armonk, NY",
+                "dates": "October 2015 - April 2019",
+                "achievements": [
+                    "Developed custom system monitoring tools using Java, improving infrastructure stability by 29%",
+                    "Implemented Git for version control and collaboration, reducing code conflicts by 15%",
+                    "Led the migration of legacy systems to modern technology stacks, improving system performance by 28%",
+                    "Enhanced website interface design with React.js, boosting click-through rates by 24%",
+                    "Leveraged MySQL for data management and analysis, boosting database performance by 26%"
+                ]
+            },
+            {
+                "title": "IT Support Technician",
+                "company": "PNC Financial Services Group",
+                "location": "Pittsburgh, PA",
+                "dates": "September 2012 - September 2015",
+                "achievements": [
+                    "Resolved an average of 35 daily IT support tickets, resulting in a 28% increase in end-user satisfaction",
+                    "Used remote desktop tools to provide timely and efficient support, decreasing average ticket resolution time by 19%",
+                    "Introduced a centralized knowledge base, reducing ticket escalation rates by 23%",
+                    "Coordinated with vendors for timely hardware replacements and upgrades, improving equipment reliability",
+                    "Provided ongoing IT support for remote workforce, improving productivity by 22%"
+                ]
+            }
+        ],
+        "projects": []
+    },
+    {
+        "name": "Charles McTurland",
+        "email": "cmcturland@email.com",
+        "phone": "(123) 456-7890",
+        "skills": [
+            "Python (Django)",
+            "Javascript (NodeJS ReactJS, jQuery)",
+            "SQL (MySQL, PostgreSQL, NoSQL)",
+            "HTML5/CSS",
+            "AWS",
+            "Unix, Git"
+        ],
+        "experience": [
+            {
+                "title": "Software Engineer",
+                "company": "Embark",
+                "location": "New York, NY",
+                "dates": "January 2015 - current",
+                "achievements": [
+                    "Boosted yearly revenue by $1.4M by re-architecting a multi-page web app into a single page web-app",
+                    "Improved page speed by 15% after implementing a streamlined ad-serving platform",
+                    "Increased efficiency by 18% by fixing bugs and documenting processes"
+                ],
+                "collaborations": [
+                    "Collaborated with a group of 4 engineers to create features across the software for college admissions"
+                ]
+            },
+            {
+                "title": "Software Engineer",
+                "company": "MarketSmart",
+                "location": "Washington, DC",
+                "dates": "April 2012 - January 2015",
+                "achievements": [
+                    "Built RESTful APIs that served data to the JavaScript front-end, handling over 500,000 concurrent users",
+                    "Improved CTR by 3% by building an internal tool using NodeJS and Pupeteer.js to automate QA and monitoring",
+                    "Increased contributions by 12% by reviewing code and conducting testing for 3 additional features"
+                ]
+            },
+            {
+                "title": "Software Engineer Intern",
+                "company": "Marketing Science Company",
+                "location": "Pittsburgh, PA",
+                "dates": "April 2011 - March 2012",
+                "achievements": [
+                    "Enabled analytics team to increase reporting speed by 24% by implementing RESTful APIs in Django",
+                    "Reduced the number of bugs reported by the client by 11% month over month by building a unit testing infrastructure using Selenium"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "degree": "B.S.",
+                "field": "Computer Science",
+                "institution": "University of Pittsburgh",
+                "dates": "September 2008 - April 2012"
+            }
+        ],
+        "source_file": "sample_resume.pdf"
+    }
+]
