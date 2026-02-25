@@ -24,5 +24,26 @@ This project simulates a real-world Applicant Tracking System (ATS) powered by G
 ## 🧠 System Architecture
 
 <p align="center">
-  <img src="./assets/architecture.png" width="900"/>
+  <img src="./assets/architecture.png" width="500"/>
 </p>
+
+---
+
+Each component is designed as an independent agent for modularity and scalability.
+
+---
+
+## 🛠️ Tech Stack
+
+- **LLM**: Groq API (Llama-3.1-8b-instant)
+- **Frontend**: Streamlit
+- **Backend**: Python
+- **PDF Parsing**: pdfminer
+- **Environment Management**: dotenv
+- **JSON Processing**: Native Python JSON
+- **Architecture Style**: Multi-Agent Modular Design
+
+---
+
+
+
