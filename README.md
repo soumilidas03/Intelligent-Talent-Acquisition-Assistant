@@ -1,31 +1,26 @@
-# Intelligent Talent Acquisition Assistant
+# 🤖 Intelligent Talent Acquisition Assistant
 
-## Overview
+An AI-powered multi-agent hiring automation system that analyzes Job Descriptions, parses resumes, ranks candidates, generates HR emails, and schedules interviews automatically.
 
-AI system to automatically parse resumes and extract structured candidate information using LLMs.
+Built using Groq LLM (Llama 3.1), Streamlit, and a modular multi-agent architecture.
 
-## Features
+---
 
-- Resume Parsing
-- Skill Extraction
-- Education Extraction
-- Experience Detection
-- JSON Structured Output
+## 🚀 Project Overview
 
-## Tech Stack
+The Intelligent Talent Acquisition Assistant automates the complete hiring pipeline:
 
-- Python
-- Groq API (LLaMA 3.1 8B)
-- PDFMiner
-- Google Colab
+1. 📄 Job Description Analysis
+2. 📑 Resume Parsing (Batch Processing)
+3. 🎯 Skill Matching & Fit Scoring
+4. 🏆 Candidate Ranking
+5. 📧 Automated Email Generation
+6. 📅 AI-based Interview Scheduling
 
-## Pipeline
+This project simulates a real-world Applicant Tracking System (ATS) powered by Generative AI.
 
-PDF Resume → Text Extraction → Cleaning → LLM Parsing → JSON Dataset
+---
 
-## How to Run
+## 🧠 System Architecture
 
-1. Clone repo
-2. Install requirements
-3. Add GROQ API key in .env
-4. Run notebook
+/assets/architecture.png

@@ -4,19 +4,19 @@
             "name": "Elijah Brown",
             "fit_score": "100%",
             "matched_skills": [
+                "python",
                 "machine learning",
-                "deep learning",
-                "python"
+                "deep learning"
             ],
             "missing_skills": []
         },
-        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Elijah Brown,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted for further consideration. Your fit score of 100% and alignment with the required skills, including machine learning, deep learning, and proficiency in Python, have made you a strong candidate for this role.\n\nWe will be in touch soon to schedule an interview as the next step in our recruitment process. If you have any questions or require further information, please do not hesitate to contact us.\n\nThank you for your interest in joining our team.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Elijah Brown,\n\nWe are pleased to inform you that your application for the Data Scientist position has been shortlisted for further consideration. Your Fit Score of 100% and matched skills in Python, machine learning, and deep learning have made you a strong candidate for this role.\n\nWe will be in touch shortly to arrange an interview or assessment to discuss your qualifications further. Please note that this email does not constitute an offer of employment, and a formal decision will be made after the completion of the interview process.\n\nThank you for your interest in joining our team, and we look forward to speaking with you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Elijah Brown",
             "interview_date": "2026-03-01",
             "time_slot": "10:00 AM - 11:00 AM",
             "mode": "Online",
-            "meeting_link": "https://example.com/meeting/12345",
+            "meeting_link": "https://meet.google.com/abc123",
             "hr_contact": "John Doe, HR Manager"
         }
     },
@@ -32,13 +32,13 @@
                 "deep learning"
             ]
         },
-        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Ms. Martinez,\n\nWe are pleased to inform you that your application for the Data Scientist position has been shortlisted for further consideration. Our team has reviewed your qualifications and found that your skills in machine learning and proficiency in Python align with the requirements of the role.\n\nWe will be in touch shortly to schedule an interview as part of the next stage of our recruitment process. If you have any questions or require further information, please do not hesitate to contact us.\n\nThank you for your interest in joining our team.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Chloe Martinez,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted. Your skills in machine learning and proficiency in Python have been closely matched to the requirements of the role.\n\nWe will be in touch soon to schedule an interview with our team. In the meantime, if you have any questions or require further information, please do not hesitate to contact us.\n\nThank you for your interest in our organization, and we look forward to speaking with you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Chloe Martinez",
             "interview_date": "2026-03-01",
-            "time_slot": "10:00 AM - 11:00 AM",
+            "time_slot": "10:00 AM - 11:30 AM",
             "mode": "Online",
-            "meeting_link": "https://example.com/meeting/12345",
+            "meeting_link": "https://meet.google.com/abc123",
             "hr_contact": "John Doe, HR Manager"
         }
     },
@@ -54,13 +54,13 @@
                 "deep learning"
             ]
         },
-        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Luna Thomas,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted. Our team has thoroughly reviewed your qualifications and found that your skills in machine learning and proficiency in Python align well with the requirements of the role.\n\nWe will be in touch soon to schedule an interview as part of the next stage of the recruitment process. If you have any questions or need further information, please do not hesitate to contact us.\n\nThank you for your interest in our organization, and we look forward to discussing your application further.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Luna Thomas,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted. Our team has carefully reviewed your qualifications and skills, and we believe you possess a strong fit for the role.\n\nYour score of 66% indicates a good match with our requirements, particularly in the areas of machine learning and Python. We would like to invite you to proceed to the next stage of our recruitment process.\n\nA member of our team will be in touch with you shortly to discuss the next steps and arrange an interview. We appreciate your interest in joining our team and look forward to further exploring your qualifications.\n\nThank you for your patience and cooperation.\n\nBest regards,\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Luna Thomas",
             "interview_date": "2026-03-01",
             "time_slot": "10:00 AM - 11:00 AM",
             "mode": "Online",
-            "meeting_link": "https://example.com/meeting/123456",
+            "meeting_link": "https://meet.google.com/abc123",
             "hr_contact": "John Doe, HR Manager"
         }
     }
