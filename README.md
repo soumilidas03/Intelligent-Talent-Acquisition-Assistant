@@ -45,5 +45,30 @@ Each component is designed as an independent agent for modularity and scalabilit
 
 ---
 
+## Streamlit UI Interface
 
+<p align="center">
+  <img src="./assets/ui2.png" width="500"/>
+</p>
 
+<p align="center">
+  <img src="./assets/ui3.png" width="900"/>
+</p><p align="center">
+  <img src="./assets/ui4.png" width="900"/>
+</p><p align="center">
+  <img src="./assets/ui5.png" width="900"/>
+</p>
+
+---
+
+👩‍💻 Author
+
+Soumili Das
+B.Tech CSE (3rd Year)
+AI | MERN | Generative AI
+
+---
+
+📄 License
+
+This project is for educational and demonstration purposes.
