@@ -23,4 +23,6 @@ This project simulates a real-world Applicant Tracking System (ATS) powered by G
 
 ## 🧠 System Architecture
 
-/assets/architecture.png
+<p align="center">
+  <img src="./assets/architecture.png" width="900"/>
+</p>
