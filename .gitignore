@@ -13,4 +13,6 @@ data/
 __pycache__/
 *.pyc
 
+dataset/parsed_resumes.json
+dataset/jd_output.json
 
