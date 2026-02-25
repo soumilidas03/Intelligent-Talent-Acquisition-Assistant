@@ -1,0 +1,67 @@
+[
+    {
+        "candidate": {
+            "name": "Elijah Brown",
+            "fit_score": "100%",
+            "matched_skills": [
+                "machine learning",
+                "deep learning",
+                "python"
+            ],
+            "missing_skills": []
+        },
+        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Elijah Brown,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted for further consideration. Your fit score of 100% and alignment with the required skills, including machine learning, deep learning, and proficiency in Python, have made you a strong candidate for this role.\n\nWe will be in touch soon to schedule an interview as the next step in our recruitment process. If you have any questions or require further information, please do not hesitate to contact us.\n\nThank you for your interest in joining our team.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "interview_schedule": {
+            "candidate_name": "Elijah Brown",
+            "interview_date": "2026-03-01",
+            "time_slot": "10:00 AM - 11:00 AM",
+            "mode": "Online",
+            "meeting_link": "https://example.com/meeting/12345",
+            "hr_contact": "John Doe, HR Manager"
+        }
+    },
+    {
+        "candidate": {
+            "name": "Chloe Martinez",
+            "fit_score": "66%",
+            "matched_skills": [
+                "machine learning",
+                "python"
+            ],
+            "missing_skills": [
+                "deep learning"
+            ]
+        },
+        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Ms. Martinez,\n\nWe are pleased to inform you that your application for the Data Scientist position has been shortlisted for further consideration. Our team has reviewed your qualifications and found that your skills in machine learning and proficiency in Python align with the requirements of the role.\n\nWe will be in touch shortly to schedule an interview as part of the next stage of our recruitment process. If you have any questions or require further information, please do not hesitate to contact us.\n\nThank you for your interest in joining our team.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "interview_schedule": {
+            "candidate_name": "Chloe Martinez",
+            "interview_date": "2026-03-01",
+            "time_slot": "10:00 AM - 11:00 AM",
+            "mode": "Online",
+            "meeting_link": "https://example.com/meeting/12345",
+            "hr_contact": "John Doe, HR Manager"
+        }
+    },
+    {
+        "candidate": {
+            "name": "Luna Thomas",
+            "fit_score": "66%",
+            "matched_skills": [
+                "machine learning",
+                "python"
+            ],
+            "missing_skills": [
+                "deep learning"
+            ]
+        },
+        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Luna Thomas,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted. Our team has thoroughly reviewed your qualifications and found that your skills in machine learning and proficiency in Python align well with the requirements of the role.\n\nWe will be in touch soon to schedule an interview as part of the next stage of the recruitment process. If you have any questions or need further information, please do not hesitate to contact us.\n\nThank you for your interest in our organization, and we look forward to discussing your application further.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "interview_schedule": {
+            "candidate_name": "Luna Thomas",
+            "interview_date": "2026-03-01",
+            "time_slot": "10:00 AM - 11:00 AM",
+            "mode": "Online",
+            "meeting_link": "https://example.com/meeting/123456",
+            "hr_contact": "John Doe, HR Manager"
+        }
+    }
+]

@@ -39,11 +39,55 @@ def extract_resume_text(pdf_path):
 # LLM STRUCTURED PARSING
 # ================================
 
+# def parse_resume_with_llm(resume_text):
+
+#     prompt = f"""
+# Extract the following details from this resume and return ONLY valid JSON:
+
+# {{
+# "name": "",
+# "email": "",
+# "phone": "",
+# "skills": [],
+# "experience": "",
+# "education": ""
+# }}
+
+# Resume Text:
+# {resume_text}
+# """
+
+#     response = client.chat.completions.create(
+#         model="llama-3.1-8b-instant",
+#         messages=[
+#             {"role": "system", "content": "You are an AI Resume Parser."},
+#             {"role": "user", "content": prompt}
+#         ],
+#         temperature=0
+#     )
+
+#     content = response.choices[0].message.content.strip()
+
+#     # Remove markdown if present
+#     content = content.replace("```json", "").replace("```", "").strip()
+
+#     return json.loads(content)
+
 def parse_resume_with_llm(resume_text):
 
-    prompt = f"""
-Extract the following details from this resume and return ONLY valid JSON:
+    if len(resume_text.strip()) < 50:
+        print("Resume text too small. Skipping...")
+        return None
 
+    prompt = f"""
+Extract the following details from this resume.
+
+Return STRICTLY valid JSON only.
+Do NOT include explanation.
+Do NOT include markdown.
+Do NOT include ```json
+
+Format:
 {{
 "name": "",
 "email": "",
@@ -60,7 +104,7 @@ Resume Text:
     response = client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=[
-            {"role": "system", "content": "You are an AI Resume Parser."},
+            {"role": "system", "content": "You are a Resume Parser. Return ONLY JSON."},
             {"role": "user", "content": prompt}
         ],
         temperature=0
@@ -68,24 +112,58 @@ Resume Text:
 
     content = response.choices[0].message.content.strip()
 
-    # Remove markdown if present
+    # Remove markdown junk
     content = content.replace("```json", "").replace("```", "").strip()
 
-    return json.loads(content)
+    # 🚨 SAFE JSON PARSING
+    try:
+        return json.loads(content)
+
+    except json.JSONDecodeError:
+
+        print("❌ JSON Parsing Failed. Raw LLM Output:")
+        print(content)
+
+        # Try extracting JSON block manually
+        try:
+            start = content.find("{")
+            end = content.rfind("}") + 1
+            json_block = content[start:end]
+            return json.loads(json_block)
+
+        except:
+            print("⚠️ Resume skipped due to invalid JSON")
+            return None
 
 
 # ================================
 # SINGLE RESUME PROCESSOR
 # ================================
 
+# def process_resume(pdf_path):
+
+#     text = extract_resume_text(pdf_path)
+
+#     if text.strip() == "":
+#         return None
+
+#     parsed_data = parse_resume_with_llm(text)
+
+#     return parsed_data
+
 def process_resume(pdf_path):
 
     text = extract_resume_text(pdf_path)
 
     if text.strip() == "":
+        print("Empty resume detected. Skipping...")
         return None
 
     parsed_data = parse_resume_with_llm(text)
+
+    if parsed_data is None:
+        print(f"Skipping resume due to parsing error: {pdf_path}")
+        return None
 
     return parsed_data
 
