@@ -1,6 +1,7 @@
 import streamlit as st
 import tempfile
 import json
+import pandas as pd
 
 from agents.jd_analyzer import analyze_jd
 from agents.resume_parser import process_resume
@@ -30,7 +31,7 @@ uploaded_files = st.file_uploader(
 # =========================
 if st.button("Run AI Hiring Pipeline"):
 
-    if jd_text == "" or uploaded_files is None:
+    if jd_text == "" or not uploaded_files:
         st.warning("Please provide JD and upload resumes")
         st.stop()
 
@@ -80,19 +81,117 @@ if st.button("Run AI Hiring Pipeline"):
 
     st.success("Pipeline Completed!")
 
-    # -------------------------
-    # 4. DISPLAY OUTPUT
-    # -------------------------
-    st.subheader("Final Shortlisted Candidates")
+    # =========================
+    # DASHBOARD METRICS
+    # =========================
+    st.subheader("📊 Hiring Dashboard")
+
+    total_resumes = len(parsed_resumes)
+    shortlisted = len(final_output)
+
+    fit_scores = [
+        int(c["candidate"]["fit_score"].replace("%", ""))
+        for c in final_output
+    ]
+
+    avg_score = sum(fit_scores) / len(fit_scores) if fit_scores else 0
+
+    col1, col2, col3 = st.columns(3)
+
+    col1.metric("Total Resumes parsed", total_resumes)
+    col2.metric("Shortlisted Candidates", shortlisted)
+    col3.metric("Average Fit Score", f"{avg_score:.1f}%")
+
+    # =========================
+    # CANDIDATE TABLE
+    # =========================
+    st.subheader("🏆 Shortlisted Candidates")
+
+    table_data = []
+
+    for result in final_output:
+
+        candidate = result["candidate"]
+
+        table_data.append({
+            "Candidate Name": candidate["name"],
+            "Fit Score": candidate["fit_score"],
+            "Matched Skills": ", ".join(candidate["matched_skills"]),
+            "Missing Skills": ", ".join(candidate["missing_skills"])
+        })
+
+    df = pd.DataFrame(table_data)
+
+    st.dataframe(df)
+
+    #CANDIDATE FIT SCORE VISUALISATION
+
+    st.subheader("📈 Candidate Fit Score Visualization")
+
+    chart_df = pd.DataFrame({
+        "Candidate": [c["candidate"]["name"] for c in final_output],
+        "Fit Score": [int(c["candidate"]["fit_score"].replace("%","")) for c in final_output]
+    })
+
+    st.bar_chart(chart_df.set_index("Candidate"))
+
+    # =========================
+    # EXCEL DOWNLOAD
+    # =========================
+    excel_file = "shortlisted_candidates.xlsx"
+
+    df.to_excel(excel_file, index=False)
+
+    with open(excel_file, "rb") as f:
+        st.download_button(
+            label="📥 Download Excel Report",
+            data=f,
+            file_name="shortlisted_candidates.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        )
+
+    #Email Preview Section
+    st.subheader("📧 Generated Candidate Emails")
+
+    for result in final_output:
+
+        with st.expander(f"Email for {result['candidate']['name']}"):
+            st.write(result["email"])
+
+
+    #Show Interview Schedule Table
+    schedule_data = []
+
+    for result in final_output:
+        if result["interview_schedule"]:
+            schedule = result["interview_schedule"]
+
+            schedule_data.append({
+                "Candidate": schedule["candidate_name"],
+                "Interview Date": schedule["interview_date"],
+                "Time Slot": schedule["time_slot"],
+                "Mode": schedule["mode"]
+            })
+
+    if schedule_data:
+        st.subheader("📅 Interview Schedule")
+        st.dataframe(pd.DataFrame(schedule_data))
+
+    
+
+    # =========================
+    # RAW JSON OUTPUT
+    # =========================
+    st.subheader("🔎 Full Pipeline Output (JSON)")
 
     st.json(final_output)
 
-    with open("final_results.json","w") as f:
-        json.dump(final_output,f,indent=4)
+    with open("final_results.json", "w") as f:
+        json.dump(final_output, f, indent=4)
 
     st.download_button(
-        label="Download Results",
-        data=json.dumps(final_output,indent=4),
+        label="Download JSON Results",
+        data=json.dumps(final_output, indent=4),
         file_name="final_results.json",
         mime="application/json"
     )
