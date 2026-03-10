@@ -39,39 +39,7 @@ def extract_resume_text(pdf_path):
 # LLM STRUCTURED PARSING
 # ================================
 
-# def parse_resume_with_llm(resume_text):
 
-#     prompt = f"""
-# Extract the following details from this resume and return ONLY valid JSON:
-
-# {{
-# "name": "",
-# "email": "",
-# "phone": "",
-# "skills": [],
-# "experience": "",
-# "education": ""
-# }}
-
-# Resume Text:
-# {resume_text}
-# """
-
-#     response = client.chat.completions.create(
-#         model="llama-3.1-8b-instant",
-#         messages=[
-#             {"role": "system", "content": "You are an AI Resume Parser."},
-#             {"role": "user", "content": prompt}
-#         ],
-#         temperature=0
-#     )
-
-#     content = response.choices[0].message.content.strip()
-
-#     # Remove markdown if present
-#     content = content.replace("```json", "").replace("```", "").strip()
-
-#     return json.loads(content)
 
 def parse_resume_with_llm(resume_text):
 
@@ -140,16 +108,7 @@ Resume Text:
 # SINGLE RESUME PROCESSOR
 # ================================
 
-# def process_resume(pdf_path):
 
-#     text = extract_resume_text(pdf_path)
-
-#     if text.strip() == "":
-#         return None
-
-#     parsed_data = parse_resume_with_llm(text)
-
-#     return parsed_data
 
 def process_resume(pdf_path):
 
@@ -201,10 +160,7 @@ def parse_all_resumes(folder_path):
 # SAVE TO JSON
 # ================================
 
-# def save_to_json(data, output_path):
 
-#     with open(output_path, "w") as f:
-#         json.dump(data, f, indent=4)
 
 def save_to_json(new_resume_data, file_name="parsed_resumes.json"):
 
