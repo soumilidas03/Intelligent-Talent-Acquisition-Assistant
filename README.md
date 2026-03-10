@@ -59,6 +59,15 @@ Each component is designed as an independent agent for modularity and scalabilit
   <img src="./assets/ui5.png" width="900"/>
 </p>
 
+<p align="center">
+  <img src="./assets/ui6.png" width="500"/>
+</p><p align="center">
+  <img src="./assets/ui7.png" width="500"/>
+</p><p align="center">
+  <img src="./assets/ui8.png" width="500"/>
+</p><p align="center">
+  <img src="./assets/ui9.png" width="500"/>
+</p>
 ---
 
 👩‍💻 Author
