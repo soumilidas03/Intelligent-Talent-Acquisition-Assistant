@@ -8,11 +8,14 @@ load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-def schedule_interview(candidate_data, jd_data):
+def schedule_interview(candidate_data, jd_data, context):
 
     today = datetime.today().strftime("%Y-%m-%d")
 
     prompt = f"""
+Use the following hiring and interview scheduling guidelines:
+
+{context}
 Schedule an interview for the following shortlisted candidate.
 
 Today's date: {today}

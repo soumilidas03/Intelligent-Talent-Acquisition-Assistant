@@ -11,14 +11,14 @@
             "missing_skills": [],
             "fit_score": "100%"
         },
-        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Elijah Brown,\n\nWe are pleased to inform you that your application for the Data Scientist position has been shortlisted. Our team has thoroughly reviewed your profile and is impressed with your exceptional fit score of 100%.\n\nWe would like to invite you to the next stage of the recruitment process, where you will have the opportunity to discuss your skills and experience in more detail. Your matched skills in Python, Machine Learning, and Deep Learning align well with the requirements of this role.\n\nA member of our team will be in touch with you shortly to schedule an interview. We look forward to learning more about your qualifications and experience.\n\nThank you for your interest in this position, and we wish you the best of luck in the next stage of the process.\n\nBest regards,\n\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Elijah,\n\nWe are pleased to inform you that you have been shortlisted for the Data Scientist position at our organization. Your application and profile have been thoroughly reviewed, and our automated hiring assistant has highlighted your exceptional skills in Python, machine learning, and deep learning, which align perfectly with the job requirements.\n\nWe are excited about the potential you bring to our team and would like to invite you to the next stage of the recruitment process. This will give us the opportunity to discuss your qualifications further and assess your fit with our organization's culture.\n\nWe will be in touch soon to schedule an interview. In the meantime, if you have any questions or concerns, please do not hesitate to reach out.\n\nThank you for your interest in joining our team, and we look forward to speaking with you soon.\n\nBest regards,\n\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Elijah Brown",
             "interview_date": "2026-03-16",
             "time_slot": "10:00 AM - 11:00 AM",
-            "mode": "Offline",
-            "meeting_link": "",
-            "hr_contact": "John Doe, HR Manager"
+            "mode": "Online",
+            "meeting_link": "https://example.com/meeting/12345",
+            "hr_contact": "John Doe, HR Recruiter"
         }
     },
     {
@@ -34,14 +34,14 @@
             ],
             "fit_score": "71%"
         },
-        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Alexander Taylor,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted. Your skills and experience have been carefully evaluated, and we are interested in moving forward with your candidacy.\n\nAs part of our next steps, we would like to invite you to an interview to further discuss your qualifications. Please note that this is a competitive process, and we will be in touch soon to schedule a convenient time for the interview.\n\nThank you for your interest in our organization, and we look forward to speaking with you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Alexander Taylor,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted for further consideration. Our automated hiring assistant has reviewed your profile and highlighted your strengths in Python and machine learning, which closely align with the requirements of the role.\n\nWe would like to invite you to proceed to the next stage of our recruitment process, where you will have the opportunity to showcase your skills and experience in more detail. This will involve a series of assessments and interviews with our team.\n\nPlease find attached a detailed overview of the next steps, including the schedule and any necessary preparation materials. If you have any questions or concerns, please do not hesitate to reach out to us.\n\nThank you for your interest in joining our team, and we look forward to learning more about your qualifications.\n\nBest regards,\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Alexander Taylor",
             "interview_date": "2026-03-16",
             "time_slot": "10:00 AM - 11:00 AM",
             "mode": "Online",
             "meeting_link": "https://example.com/meeting/12345",
-            "hr_contact": "John Doe, HR Manager"
+            "hr_contact": "John Doe, Recruiter"
         }
     },
     {
@@ -57,14 +57,37 @@
             ],
             "fit_score": "71%"
         },
-        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Chloe Martinez,\n\nWe are pleased to inform you that your application for the Data Scientist position has been shortlisted for further consideration. Our review of your qualifications and experience has shown a strong alignment with the requirements of the role.\n\nWe will be in touch soon to discuss the next steps in our recruitment process. Please note that the details of the interview and assessment will be shared with you in due course.\n\nThank you for your interest in joining our team. We look forward to speaking with you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Chloe Martinez,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted. Our automated hiring assistant has analyzed your profile and highlighted your strengths in Python and machine learning, which align well with the requirements of the role.\n\nAs a result, we would like to invite you to proceed to the next stage of our recruitment process. This will provide you with an opportunity to further discuss your skills and experience in more detail.\n\nIf you are available, we would like to schedule a call to move forward. Please let us know a convenient time for you, and we will arrange a suitable date and time.\n\nThank you for your interest in joining our team, and we look forward to hearing from you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Chloe Martinez",
             "interview_date": "2026-03-16",
             "time_slot": "10:00 AM - 11:00 AM",
-            "mode": "Offline",
-            "meeting_link": "",
-            "hr_contact": "John Doe, [johndoe@example.com](mailto:johndoe@example.com)"
+            "mode": "Online",
+            "meeting_link": "https://example.com/meeting-link",
+            "hr_contact": "John Doe, Recruiter"
+        }
+    },
+    {
+        "candidate": {
+            "name": "Ella Green",
+            "email": "ella.green@email.com",
+            "matched_skills": [
+                "python",
+                "machine learning"
+            ],
+            "missing_skills": [
+                "deep learning"
+            ],
+            "fit_score": "71%"
+        },
+        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Ella Green,\n\nWe are pleased to inform you that you have been shortlisted for the Data Scientist position at our organization. Our automated hiring assistant has provided insights that highlight your strengths in Python and machine learning, which closely align with the requirements of the role.\n\nWe would like to invite you to a further stage of the recruitment process, where you will have the opportunity to showcase your skills and experience in more detail. This will involve a series of interviews and assessments, which will be conducted by our team of experts.\n\nWe are excited about the potential you bring to this role and look forward to learning more about your qualifications. Please find below the details of the next stage:\n\n* Date: [Insert Date and Time]\n* Location: [Insert Location or Virtual Meeting Link]\n* Format: [Insert Format, e.g., video interview, phone call]\n\nIf you have any questions or concerns, please do not hesitate to contact us. We appreciate your interest in our organization and look forward to speaking with you soon.\n\nBest regards,\n\n[Your Name]\nHR Assistant",
+        "interview_schedule": {
+            "candidate_name": "Ella Green",
+            "interview_date": "2026-03-16",
+            "time_slot": "10:00 AM - 11:30 AM",
+            "mode": "Online",
+            "meeting_link": "https://example.com/meeting/12345",
+            "hr_contact": "John Doe, HR Recruiter"
         }
     }
 ]

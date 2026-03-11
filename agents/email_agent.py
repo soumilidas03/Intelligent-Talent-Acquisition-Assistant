@@ -6,11 +6,15 @@ load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-def generate_email(candidate_data, jd_data, status="shortlisted"):
+def generate_email(candidate_data, jd_data, context, status="shortlisted"):
 
     if status == "shortlisted":
 
         prompt = f"""
+Use the following hiring guidelines:
+
+{context}
+
 Write a professional HR email informing the candidate that they have been shortlisted.
 
 Candidate Name: {candidate_data['name']}
@@ -18,18 +22,22 @@ Fit Score: {candidate_data['fit_score']}
 Matched Skills: {candidate_data['matched_skills']}
 Job Role: {jd_data.get('job_role','the applied position')}
 
-Keep it concise and formal.
+Keep it concise, professional and encouraging.
 """
 
     else:
 
         prompt = f"""
-Write a professional rejection email.
+Use the following hiring guidelines:
+
+{context}
+
+Write a polite rejection email.
 
 Candidate Name: {candidate_data['name']}
 Job Role: {jd_data.get('job_role','the applied position')}
 
-Keep tone polite and encouraging.
+Tone should be respectful and encouraging.
 """
 
     response = client.chat.completions.create(
