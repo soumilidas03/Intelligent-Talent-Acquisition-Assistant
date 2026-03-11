@@ -147,7 +147,7 @@ if st.button("Run AI Hiring Pipeline"):
     # -------------------------
     st.subheader("Running Batch Hiring Pipeline...")
 
-    final_output = run_batch_pipeline(parsed_resumes, jd_data)
+    final_output = run_batch_pipeline(parsed_resumes, jd_data,context)
 
     st.success("Pipeline Completed!")
 
