@@ -29,6 +29,20 @@ dataset/
 # Chroma Vector Database
 chroma_db/
 
-# OS files
+# ----------------------------
+# Temporary Files
+# ----------------------------
+*.log
+*.tmp
+
+# ----------------------------
+# OS Files
+# ----------------------------
 .DS_Store
 Thumbs.db
+
+# ----------------------------
+# IDE Files
+# ----------------------------
+.vscode/
+.idea/

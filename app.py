@@ -2,6 +2,7 @@ import streamlit as st
 import tempfile
 import json
 import pandas as pd
+from storage.s3_storage import upload_resume
 
 from agents.jd_analyzer import analyze_jd
 from agents.resume_parser import process_resume
@@ -125,15 +126,36 @@ if st.button("Run AI Hiring Pipeline"):
 
     parsed_resumes = []
 
+    # for file in uploaded_files:
+
+    #     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+    #         tmp.write(file.read())
+    #         tmp_path = tmp.name
+
+    #     parsed = process_resume(tmp_path)
+
+    #     if parsed:
+    #         parsed_resumes.append(parsed)
+
     for file in uploaded_files:
 
+        file_bytes = file.read()
+
+        # Upload to AWS S3
+        import uuid
+
+        unique_filename = f"{uuid.uuid4()}_{file.name}"
+        s3_url = upload_resume(file_bytes, unique_filename)
+
+        # Save temporary file for parsing
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
-            tmp.write(file.read())
+            tmp.write(file_bytes)
             tmp_path = tmp.name
 
         parsed = process_resume(tmp_path)
 
         if parsed:
+            parsed["resume_s3_url"] = s3_url
             parsed_resumes.append(parsed)
 
     if len(parsed_resumes) == 0:
