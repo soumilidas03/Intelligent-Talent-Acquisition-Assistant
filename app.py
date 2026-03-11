@@ -6,7 +6,7 @@ import pandas as pd
 from agents.jd_analyzer import analyze_jd
 from agents.resume_parser import process_resume
 from pipeline.batch_pipeline import run_batch_pipeline
-
+from pdfminer.high_level import extract_text
 
 st.set_page_config(page_title="AI Talent Acquisition Assistant")
 
@@ -15,7 +15,13 @@ st.title("🤖 Intelligent Talent Acquisition Assistant")
 # =========================
 # JD INPUT
 # =========================
-jd_text = st.text_area("Paste Job Description Here")
+# jd_text = st.text_area("Paste Job Description Here")
+
+#new
+jd_file = st.file_uploader(
+    "Upload Job Description (PDF or TXT)",
+    type=["pdf","txt"]
+)
 
 # =========================
 # RESUME UPLOAD
@@ -26,12 +32,32 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True
 )
 
+#new
+
+
+
+def extract_jd_text(uploaded_file):
+
+    if uploaded_file.type == "text/plain":
+        return uploaded_file.read().decode("utf-8")
+
+    elif uploaded_file.type == "application/pdf":
+
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+            tmp.write(uploaded_file.read())
+            tmp_path = tmp.name
+
+        text = extract_text(tmp_path)
+        return text
+
+    return ""
+
 # =========================
 # PROCESS BUTTON
 # =========================
 if st.button("Run AI Hiring Pipeline"):
 
-    if jd_text == "" or not uploaded_files:
+    if jd_file is None or not uploaded_files:
         st.warning("Please provide JD and upload resumes")
         st.stop()
 
@@ -39,6 +65,15 @@ if st.button("Run AI Hiring Pipeline"):
     # 1. JD ANALYSIS
     # -------------------------
     st.subheader("Analyzing Job Description...")
+    jd_text = extract_jd_text(jd_file)
+
+    if jd_text.strip() == "":
+        st.error("Could not extract text from the uploaded JD file.")
+        st.stop()
+
+    st.subheader("📄 Extracted Job Description Preview")
+    st.text_area("Extracted JD Preview", jd_text[:800], height=200)
+
     jd_data = analyze_jd(jd_text)
 
     if jd_data is None:
