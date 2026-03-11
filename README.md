@@ -23,15 +23,6 @@ The **Intelligent Talent Acquisition Assistant** automates the end-to-end hiring
 
 This project demonstrates how **Generative AI agents can automate hiring workflows** used by modern recruitment platforms.
 
----
-
-# 🧠 System Architecture
-
-<p align="center">
-  <img src="./assets/architecture.png" width="600"/>
-</p>
-
-Each module in the system is implemented as an **independent AI agent**, enabling a scalable **multi-agent architecture**.
 
 ---
 
