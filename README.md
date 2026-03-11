@@ -33,6 +33,53 @@ Each component is designed as an independent agent for modularity and scalabilit
 
 ---
 
+flowchart TD
+
+A[HR Recruiter] --> B[Streamlit Web Interface]
+
+B --> C[Upload Job Description]
+C --> D[JD Text Extraction]
+
+D --> E[RAG Retrieval - ChromaDB Vector Search]
+E --> F[Retrieve Hiring Knowledge Base]
+
+F --> G[JD Analyzer Agent - Groq LLM]
+G --> H[Structured Job Requirements]
+
+B --> I[Upload Candidate Resumes]
+
+I --> J[Read Resume Bytes]
+J --> K[AWS S3 Resume Storage]
+K --> L[Resume URL Stored]
+
+J --> M[Resume Parser Agent]
+M --> N[Structured Resume Data]
+
+H --> O[Candidate Scoring Agent]
+N --> O
+F --> O
+
+O --> P[Candidate Ranking]
+
+P --> Q[Shortlisting Logic]
+Q --> R[Top Candidates Selected]
+
+R --> S[Email Generation Agent]
+R --> T[Interview Scheduler Agent]
+
+S --> U[Generated HR Emails]
+T --> V[Interview Schedule JSON]
+
+U --> W[Streamlit Hiring Dashboard]
+V --> W
+P --> W
+
+W --> X[Analytics + Visualizations]
+W --> Y[Excel Report Download]
+W --> Z[JSON Results Export]
+
+---
+
 ## 🛠️ Tech Stack
 
 - **LLM**: Groq API (Llama-3.1-8b-instant)
