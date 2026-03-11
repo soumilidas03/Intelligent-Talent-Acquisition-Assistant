@@ -8,6 +8,8 @@ from agents.resume_parser import process_resume
 from pipeline.batch_pipeline import run_batch_pipeline
 from pdfminer.high_level import extract_text
 
+from rag.rag_retriever import retrieve_context
+
 st.set_page_config(page_title="AI Talent Acquisition Assistant")
 
 st.title("🤖 Intelligent Talent Acquisition Assistant")
@@ -15,9 +17,8 @@ st.title("🤖 Intelligent Talent Acquisition Assistant")
 # =========================
 # JD INPUT
 # =========================
-# jd_text = st.text_area("Paste Job Description Here")
 
-#new
+
 jd_file = st.file_uploader(
     "Upload Job Description (PDF or TXT)",
     type=["pdf","txt"]
@@ -31,8 +32,6 @@ uploaded_files = st.file_uploader(
     type=["pdf"],
     accept_multiple_files=True
 )
-
-#new
 
 
 
@@ -74,7 +73,43 @@ if st.button("Run AI Hiring Pipeline"):
     st.subheader("📄 Extracted Job Description Preview")
     st.text_area("Extracted JD Preview", jd_text[:800], height=200)
 
-    jd_data = analyze_jd(jd_text)
+    # jd_data = analyze_jd(jd_text)
+
+    # -------------------------
+    # RAG RETRIEVAL
+    # -------------------------
+
+    context = ""
+
+    try:
+        context = retrieve_context(jd_text)
+
+        if context:
+            st.subheader("📚 Retrieved Hiring Knowledge (RAG)")
+            st.text_area("Retrieved Context", context, height=200)
+
+    except Exception:
+        st.warning("RAG retrieval failed. Proceeding without external knowledge.")
+
+    # -------------------------
+    # ENHANCED JD PROMPT
+    # -------------------------
+
+    enhanced_jd = f"""
+    Use the following hiring knowledge as context to improve job description analysis.
+
+    Context:
+    {context}
+
+    Job Description:
+    {jd_text}
+    """
+
+    # -------------------------
+    # JD ANALYSIS
+    # -------------------------
+
+    jd_data = analyze_jd(enhanced_jd)
 
     if jd_data is None:
         st.error("JD Analysis Failed")

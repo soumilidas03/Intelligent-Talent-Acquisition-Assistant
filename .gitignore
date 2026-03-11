@@ -20,3 +20,15 @@ dataset/jd_output.json
 # Generated output files
 shortlisted_candidates.xlsx
 final_results.json
+
+
+# Dataset / temporary files
+dataset/
+*.log
+
+# Chroma Vector Database
+chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db

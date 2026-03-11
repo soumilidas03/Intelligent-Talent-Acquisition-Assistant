@@ -1,0 +1,188 @@
+GENERAL RECRUITMENT FRAMEWORK
+
+Modern recruitment systems use structured hiring pipelines to evaluate candidates objectively. The recruitment workflow typically includes job description analysis, resume screening, candidate ranking, interview scheduling, and candidate communication. Automated systems assist HR teams by analyzing candidate qualifications and highlighting the most relevant profiles.
+
+
+JOB DESCRIPTION ANALYSIS
+
+A job description defines the expectations and responsibilities for a specific role. It typically contains the following elements:
+
+1. Job Title
+2. Required Skills
+3. Preferred Skills
+4. Years of Experience
+5. Educational Qualifications
+6. Job Responsibilities
+7. Work Location
+8. Employment Type
+
+Accurate extraction of required skills and responsibilities is critical for matching candidates with the role.
+
+
+RESUME SCREENING PRINCIPLES
+
+During resume screening, candidate profiles are evaluated based on the following criteria:
+
+1. Skill Relevance
+The presence of skills that match the job requirements.
+
+2. Experience Level
+Years of professional experience related to the role.
+
+3. Educational Background
+Relevance of academic qualifications.
+
+4. Project Experience
+Hands-on projects, internships, or real-world contributions.
+
+5. Industry Exposure
+Previous experience working in similar domains.
+
+Candidates whose profiles align closely with the job requirements are prioritized for further evaluation.
+
+
+SKILL MATCHING GUIDELINES
+
+Skill matching is performed by comparing candidate skills with the required skills listed in the job description.
+
+Matching categories:
+
+Strong Match:
+Candidate possesses most or all required skills.
+
+Moderate Match:
+Candidate possesses several required skills but may lack some specialization.
+
+Weak Match:
+Candidate has limited overlap with required skills.
+
+Skill match percentage is commonly used to quantify candidate suitability.
+
+
+CANDIDATE SCORING AND RANKING
+
+Candidate ranking systems often assign scores based on:
+
+Skill Match Score
+Experience Relevance Score
+Education Relevance Score
+Project or Portfolio Quality
+
+Example scoring interpretation:
+
+90–100%  : Excellent Candidate  
+70–89%   : Strong Candidate  
+50–69%   : Potential Candidate  
+Below 50%: Low Match
+
+
+SHORTLISTING POLICY
+
+Candidates with higher match scores are typically shortlisted for interviews. The shortlist may include the top candidates whose profiles demonstrate the strongest alignment with the role requirements.
+
+
+INTERVIEW PROCESS
+
+A typical hiring interview process may include multiple stages:
+
+1. Initial Screening
+Basic verification of qualifications and candidate interest.
+
+2. Technical Assessment
+Evaluation of technical knowledge and problem-solving ability.
+
+3. Technical Interview
+Discussion of projects, systems, and practical skills.
+
+4. Managerial Interview
+Evaluation of teamwork, communication, and problem-solving approach.
+
+5. HR Interview
+Final discussion about expectations, company culture, and policies.
+
+
+INTERVIEW SCHEDULING GUIDELINES
+
+Once candidates are shortlisted, interviews should be scheduled within a reasonable time frame.
+
+Recommended scheduling window:
+3–7 business days after shortlisting.
+
+Typical interview time slots include:
+
+Morning Sessions:
+9:00 AM – 12:00 PM
+
+Afternoon Sessions:
+1:00 PM – 5:00 PM
+
+Interviews may be conducted through:
+
+Online Platforms:
+Zoom, Google Meet, Microsoft Teams
+
+Offline Mode:
+Company office location
+
+
+PROFESSIONAL EMAIL COMMUNICATION
+
+Candidate communication should maintain a professional and respectful tone.
+
+Shortlist Email:
+Inform candidates that their profile has been shortlisted and provide interview details or next steps.
+
+Rejection Email:
+Politely inform candidates that they were not selected while thanking them for their interest.
+
+Follow-up Email:
+Provide updates about interview outcomes or next stages.
+
+
+CANDIDATE DATA PRIVACY
+
+Candidate resumes contain sensitive personal information. Recruitment systems must ensure that candidate data is handled securely and only accessed by authorized personnel.
+
+
+AI ASSISTED RECRUITMENT
+
+Artificial intelligence tools can assist HR teams by automating resume screening and candidate ranking. These tools provide recommendations based on candidate qualifications, but final hiring decisions should always involve human review.
+
+
+FAIR HIRING PRACTICES
+
+Recruitment decisions should focus on candidate qualifications, skills, and experience. Hiring systems should promote fairness, diversity, and equal opportunity for all applicants.
+
+
+HIRING METRICS
+
+Recruitment analytics often track metrics such as:
+
+Number of applications received
+Number of candidates shortlisted
+Interview success rate
+Time to hire
+Candidate acceptance rate
+
+These metrics help organizations optimize their recruitment processes.
+
+
+WORKPLACE SKILLS COMMONLY EVALUATED
+
+Employers frequently evaluate candidates based on both technical and soft skills.
+
+Technical Skills Examples:
+Programming languages, data analysis tools, cloud platforms, software frameworks.
+
+Soft Skills Examples:
+Communication, teamwork, problem-solving, leadership, adaptability.
+
+
+REMOTE AND HYBRID WORK CONSIDERATIONS
+
+Modern hiring processes often consider remote or hybrid work arrangements. Candidates should demonstrate strong communication skills and the ability to collaborate in distributed teams.
+
+
+RECRUITMENT DECISION SUPPORT
+
+Automated hiring assistants provide insights to recruiters by highlighting candidate strengths, potential skill gaps, and alignment with job requirements. These insights support faster and more informed recruitment decisions.

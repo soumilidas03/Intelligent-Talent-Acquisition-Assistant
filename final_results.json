@@ -4,20 +4,20 @@
             "name": "Elijah Brown",
             "fit_score": "100%",
             "matched_skills": [
-                "python",
                 "deep learning",
+                "python",
                 "machine learning"
             ],
             "missing_skills": []
         },
-        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Elijah Brown,\n\nWe are pleased to inform you that your application for the Data Scientist position has been shortlisted for further consideration. Your fit score of 100% and matched skills in Python, Deep Learning, and Machine Learning align with the requirements of the role.\n\nWe would like to invite you to participate in the next stage of our recruitment process. You will be contacted separately to schedule an interview at your earliest convenience.\n\nThank you for your interest in joining our team. We look forward to discussing your qualifications further.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Elijah Brown,\n\nWe are pleased to inform you that your application for the Data Scientist position has been shortlisted. Your skills and experience, as highlighted in your resume, have been carefully reviewed and match the requirements of the role.\n\nYou will be invited to participate in the next stage of the recruitment process, which will include a series of assessments and interviews with our team. We will be in touch shortly to provide further details.\n\nThank you for your interest in joining our organization. We look forward to learning more about your qualifications and how you can contribute to our team.\n\nBest regards,\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Elijah Brown",
             "interview_date": "2026-03-16",
             "time_slot": "10:00 AM - 11:30 AM",
-            "mode": "Offline",
-            "meeting_link": "",
-            "hr_contact": "John Doe, HR Manager"
+            "mode": "Online",
+            "meeting_link": "https://example.com/meeting/12345",
+            "hr_contact": "John Doe, HR Manager, john.doe@example.com"
         }
     },
     {
@@ -32,13 +32,13 @@
                 "deep learning"
             ]
         },
-        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Alexander Taylor,\n\nI am writing to inform you that you have been shortlisted for the Data Scientist position at our organization. Our hiring team has reviewed your application and found that your skills in Python and machine learning align with the requirements of the role.\n\nWe will be in touch soon to schedule an interview. In the meantime, if you have any questions or concerns, please do not hesitate to contact me.\n\nThank you for your interest in our organization.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Alexander Taylor,\n\nI am writing to inform you that your application for the Data Scientist position at our organization has been shortlisted. We appreciate the time and effort you took to apply and are impressed by your relevant skills in Python and machine learning.\n\nAs part of our next stage, we would like to invite you to an interview to further discuss your qualifications and experience. We will be in touch soon to schedule a date and time that suits you.\n\nThank you for your interest in our organization, and we look forward to speaking with you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Alexander Taylor",
             "interview_date": "2026-03-16",
-            "time_slot": "10:00 AM - 11:00 AM",
-            "mode": "Online",
-            "meeting_link": "https://example.com/meeting/12345",
+            "time_slot": "10:00 AM - 11:30 AM",
+            "mode": "Offline",
+            "meeting_link": "",
             "hr_contact": "John Doe, HR Manager"
         }
     },
@@ -54,14 +54,14 @@
                 "deep learning"
             ]
         },
-        "email": "Subject: Update on Your Application for Data Scientist Position\n\nDear Chloe Martinez,\n\nWe are pleased to inform you that your application for the Data Scientist position has been shortlisted. Our review of your qualifications and experience has shown a strong alignment with the requirements of the role.\n\nAs a next step, we would like to invite you to an interview to further discuss your application. Please find below the details of the interview:\n\n- Date: [Insert Date]\n- Time: [Insert Time]\n- Location: [Insert Location]\n\nWe will be in touch soon to confirm the details and provide any additional information you may require. If you have any questions or concerns, please do not hesitate to contact us.\n\nThank you for your interest in this opportunity, and we look forward to meeting you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Ms. Martinez,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted for further consideration. Our hiring team has reviewed your qualifications and we believe that your skills in Python and machine learning align with the requirements of the role.\n\nWe would like to invite you to participate in the next stage of our recruitment process, which will include a series of interviews and assessments. The details of the process will be shared with you in a separate email.\n\nPlease note that our hiring process is ongoing, and we will be in touch with you shortly to discuss the next steps.\n\nThank you for your interest in our organization, and we look forward to speaking with you further.\n\nBest regards,\n\n[Your Name]\nHR Assistant",
         "interview_schedule": {
             "candidate_name": "Chloe Martinez",
             "interview_date": "2026-03-16",
-            "time_slot": "10:00 AM - 11:00 AM",
-            "mode": "Online",
-            "meeting_link": "https://example.com/meeting/12345",
-            "hr_contact": "John Doe, HR Manager"
+            "time_slot": "2:00 PM - 3:30 PM",
+            "mode": "Offline",
+            "meeting_link": "",
+            "hr_contact": "John Doe, [johndoe@example.com](mailto:johndoe@example.com)"
         }
     }
 ]
