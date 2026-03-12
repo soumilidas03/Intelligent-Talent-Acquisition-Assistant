@@ -1,93 +1,83 @@
 [
     {
         "candidate": {
-            "name": "Elijah Brown",
-            "email": "Email",
+            "name": "Rahul Sharma",
+            "email": "rahul.sharma@email.com",
             "matched_skills": [
-                "python",
-                "deep learning",
-                "machine learning"
+                "react.js",
+                "javascript",
+                "css3",
+                "node.js",
+                "html5"
             ],
-            "missing_skills": [],
-            "fit_score": "100%"
+            "missing_skills": [
+                "git / github",
+                "rest apis"
+            ],
+            "fit_score": "76%"
         },
-        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Elijah,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted for further evaluation. Our automated hiring assistant has reviewed your profile and highlighted your exceptional technical skills, particularly in Python, Deep Learning, and Machine Learning.\n\nWe believe that your skills and experience align well with the requirements of the role, and we would like to invite you to participate in the next stage of our recruitment process. This will provide you with an opportunity to showcase your expertise and learn more about our organization.\n\nWe will be in touch soon to schedule an interview. In the meantime, if you have any questions or require further information, please do not hesitate to contact us.\n\nThank you for your interest in joining our team, and we look forward to speaking with you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Shortlisting for Web Developer Position\n\nDear Rahul Sharma,\n\nWe are pleased to inform you that you have been shortlisted for the Web Developer position at our organization. Your application and skills have been carefully evaluated, and we believe you possess the required qualifications to excel in this role.\n\nBelow are the details of the position:\n\n- **Job Title:** Web Developer\n- **Required Skills:** Proficiency in JavaScript, React.js, CSS3, and HTML5\n- **Preferred Skills:** Experience with Node.js\n- **Years of Experience:** 2-5 years\n- **Educational Qualifications:** Bachelor's degree in Computer Science or related field\n- **Job Responsibilities:** Design, develop, and maintain web applications using modern front-end technologies\n- **Work Location:** [Insert Location]\n- **Employment Type:** Full-time\n\nWe would like to invite you to a technical interview to further discuss your projects, systems, and practical skills. The interview will be conducted in a virtual setting, and we will schedule a time that suits you best.\n\nPlease find attached a brief overview of the company and the position. If you have any questions or concerns, feel free to reach out to us.\n\nWe look forward to hearing from you and exploring how your skills can contribute to our organization.\n\nBest regards,\n\n[Your Name]\nHR Assistant",
         "interview_schedule": {
-            "candidate_name": "Elijah Brown",
-            "interview_date": "2026-03-16",
+            "candidate_name": "Rahul Sharma",
+            "interview_date": "2026-03-17",
             "time_slot": "10:00 AM - 11:00 AM",
             "mode": "Online",
-            "meeting_link": "https://example.com/meeting-link",
-            "hr_contact": "John Doe, HR Recruiter"
+            "meeting_link": "https://meet.google.com/xyz",
+            "hr_contact": "John Doe, HR Manager"
         }
     },
     {
         "candidate": {
-            "name": "Alexander Taylor",
-            "email": "ataylor@email.com",
+            "name": "Priya Sen",
+            "email": "priya.sen@email.com",
             "matched_skills": [
-                "python",
-                "machine learning"
+                "react.js",
+                "css3",
+                "javascript",
+                "html5"
             ],
             "missing_skills": [
-                "deep learning"
+                "git / github",
+                "node.js",
+                "rest apis"
             ],
-            "fit_score": "71%"
+            "fit_score": "62%"
         },
-        "email": "Subject: Update on Your Data Scientist Application\n\nDear Alexander,\n\nWe are pleased to inform you that you have been shortlisted for the Data Scientist position at our organization. Our automated hiring assistant has analyzed your application and highlighted your strengths in Python and machine learning, which align closely with the requirements of the role.\n\nWe would like to invite you to proceed to the next stage of our recruitment process. This will give us an opportunity to further discuss your qualifications and experience.\n\nPlease expect a call from our recruitment team to schedule an interview at your earliest convenience.\n\nThank you for your interest in joining our team, and we look forward to speaking with you soon.\n\nBest regards,\n[Your Name]\nHR Assistant",
+        "email": "Subject: Update on Your Application for Web Developer Position\n\nDear Priya Sen,\n\nWe are pleased to inform you that your application for the Web Developer position at our organization has been shortlisted. Our team has thoroughly reviewed your profile and found a strong match with the required skills for the role.\n\nBased on our evaluation, your skills in React.js, CSS3, JavaScript, and HTML5 align closely with our expectations. We would like to invite you to participate in a technical interview as the next step in our hiring process.\n\nThe technical interview will be an opportunity for you to discuss your projects, systems, and practical skills in more detail. We believe that your experience and qualifications make you a strong candidate for this position.\n\nBelow are the details of the interview:\n\n- Job Title: Web Developer\n- Date and Time: [Insert Date and Time]\n- Location: [Insert Location]\n- Employment Type: Full-time\n\nWe look forward to speaking with you soon and exploring how your skills can contribute to our team's success.\n\nPlease confirm your availability for the interview by responding to this email.\n\nThank you for your interest in our organization, and we wish you the best of luck.\n\nBest regards,\n[Your Name]\nHR Assistant",
         "interview_schedule": {
-            "candidate_name": "Alexander Taylor",
-            "interview_date": "2026-03-16",
+            "candidate_name": "Priya Sen",
+            "interview_date": "2026-03-17",
             "time_slot": "10:00 AM - 11:00 AM",
             "mode": "Online",
-            "meeting_link": "https://zoom.us/j/123456789",
-            "hr_contact": "John Doe"
+            "meeting_link": "https://example.com/meeting/12345",
+            "hr_contact": "John Doe, HR Manager"
         }
     },
     {
         "candidate": {
-            "name": "Chloe Martinez",
-            "email": "Email",
+            "name": "Pooja Mehta",
+            "email": "pooja.mehta@email.com",
             "matched_skills": [
-                "python",
-                "machine learning"
+                "node.js",
+                "html5",
+                "javascript",
+                "css3"
             ],
             "missing_skills": [
-                "deep learning"
+                "react.js",
+                "git / github",
+                "rest apis"
             ],
-            "fit_score": "71%"
+            "fit_score": "62%"
         },
-        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Chloe Martinez,\n\nWe are pleased to inform you that your application for the Data Scientist position at our organization has been shortlisted. Our automated hiring assistant has analyzed your profile and highlighted your strengths in Python and machine learning, which align closely with the job requirements.\n\nWe would like to invite you to the next stage of our recruitment process, where you will have the opportunity to showcase your skills and experience in more detail. This will include a discussion with our hiring team to further assess your fit for the role.\n\nPlease find below some details about the next steps:\n\n- Date: [Insert Date and Time]\n- Location: [Insert Location or Virtual Meeting Link]\n- Duration: [Insert Duration]\n\nWe look forward to meeting you and exploring how your skills and experience can contribute to our organization.\n\nIf you have any questions or concerns, please do not hesitate to contact us.\n\nBest regards,\n\n[Your Name]\nHR Assistant",
+        "email": "Subject: Invitation to Technical Interview for Web Developer Position\n\nDear Pooja Mehta,\n\nWe are pleased to inform you that your application for the Web Developer position at our organization has been shortlisted. Our hiring team has carefully reviewed your profile and found that your skills in Node.js, HTML5, JavaScript, and CSS3 align with our requirements.\n\nWe would like to invite you to participate in a technical interview to further assess your skills and experience. The interview will be a discussion-based session where we will delve into your practical experience with web development, including your projects and systems.\n\nThe details of the interview are as follows:\n\n- Date: [Insert Date and Time]\n- Location: [Insert Location or Virtual Meeting Link]\n- Duration: Approximately 1 hour\n\nPlease note that this is a technical interview, and we encourage you to come prepared to discuss your projects and share your experiences.\n\nWe look forward to meeting you and exploring how your skills can contribute to our team's success.\n\nBest regards,\n[Your Name]\nHuman Resources Assistant",
         "interview_schedule": {
-            "candidate_name": "Chloe Martinez",
-            "interview_date": "2026-03-16",
-            "time_slot": "10:00 AM - 11:30 AM",
+            "candidate_name": "Pooja Mehta",
+            "interview_date": "2026-03-17",
+            "time_slot": "10:00 AM - 11:00 AM",
             "mode": "Online",
             "meeting_link": "https://meet.google.com/your-meeting-link",
-            "hr_contact": "John Doe, Recruiter"
-        }
-    },
-    {
-        "candidate": {
-            "name": "Ella Green",
-            "email": "ella.green@email.com",
-            "matched_skills": [
-                "python",
-                "machine learning"
-            ],
-            "missing_skills": [
-                "deep learning"
-            ],
-            "fit_score": "71%"
-        },
-        "email": "Subject: Update on Your Application for Data Scientist Role\n\nDear Ella,\n\nWe are pleased to inform you that your application for the Data Scientist position at our company has been shortlisted. Our automated hiring assistant has evaluated your profile and highlighted your strengths in Python and Machine Learning, which align well with the job requirements.\n\nAs we move forward with the recruitment process, we would like to invite you to participate in the next stage. This will give us an opportunity to discuss your experience and qualifications in more detail.\n\nPlease find the details of the next stage below:\n\n- Date: [Insert Date]\n- Time: [Insert Time]\n- Location: [Insert Location] or Virtual Meeting Link (to be provided)\n\nWe look forward to speaking with you soon and exploring how your skills and experience can contribute to our team.\n\nBest regards,\n[Your Name]\nHR Assistant",
-        "interview_schedule": {
-            "candidate_name": "Ella Green",
-            "interview_date": "2026-03-16",
-            "time_slot": "10:00 AM - 11:00 AM",
-            "mode": "Online",
-            "meeting_link": "https://example.com/meeting",
-            "hr_contact": "John Doe, HR Recruiter"
+            "hr_contact": "John Doe, HR Representative"
         }
     }
 ]

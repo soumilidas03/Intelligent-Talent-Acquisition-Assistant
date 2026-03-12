@@ -23,7 +23,6 @@ The **Intelligent Talent Acquisition Assistant** automates the end-to-end hiring
 
 This project demonstrates how **Generative AI agents can automate hiring workflows** used by modern recruitment platforms.
 
-
 ---
 
 # 🔄 System Workflow
@@ -259,39 +258,39 @@ Intelligent-Talent-Acquisition-Assistant
 ### Main Interface
 
 <p align="center">
-  <img src="./assets/ui2.png" width="500"/>
+  <img src="./assets/ui_1.png" width="500"/>
 </p>
 
 ### Candidate Ranking Dashboard
 
 <p align="center">
-  <img src="./assets/ui3.png" width="900"/>
+  <img src="./assets/ui_2.png" width="900"/>
 </p>
 
 <p align="center">
-  <img src="./assets/ui4.png" width="900"/>
+  <img src="./assets/ui_3.png" width="900"/>
 </p>
 
 <p align="center">
-  <img src="./assets/ui5.png" width="900"/>
+  <img src="./assets/ui_4.png" width="900"/>
 </p>
 
 ### Email Generation & Scheduling
 
 <p align="center">
-  <img src="./assets/ui6.png" width="500"/>
+  <img src="./assets/ui_5.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="./assets/ui7.png" width="500"/>
+  <img src="./assets/ui_6.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="./assets/ui8.png" width="500"/>
+  <img src="./assets/ui_7.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="./assets/ui9.png" width="500"/>
+  <img src="./assets/ui_8.png" width="500"/>
 </p>
 
 ---
@@ -301,7 +300,7 @@ Intelligent-Talent-Acquisition-Assistant
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Intelligent-Talent-Acquisition-Assistant.git
+git clone https://github.com/soumilidas03/Intelligent-Talent-Acquisition-Assistant.git
 cd Intelligent-Talent-Acquisition-Assistant
 ```
 
